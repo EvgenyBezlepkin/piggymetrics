@@ -20,9 +20,9 @@ import java.util.Arrays;
 
 @SpringBootApplication
 @EnableDiscoveryClient
-@EnableOAuth2Client
+//@EnableOAuth2Client
 @EnableFeignClients
-@EnableGlobalMethodSecurity(prePostEnabled = true)
+//@EnableGlobalMethodSecurity(prePostEnabled = true)
 public class StatisticsApplication {
 
 	public static void main(String[] args) {
